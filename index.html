@@ -30,12 +30,12 @@
 <main>
 
 <h1>Politique de confidentialité d'Eddy</h1>
-<p class="meta">Dernière mise à jour : 11 octobre 2026 · Application Android « Eddy »</p>
+<p class="meta">Dernière mise à jour : 20 octobre 2026 · Application Android « Eddy »</p>
 
 <div class="box">
   <strong>En bref</strong>
   <ul>
-    <li>Eddy travaille <strong>sur votre téléphone</strong>. La liste de vos applications, vos photos, votre batterie et vos réglages restent sur l'appareil.</li>
+    <li>Eddy travaille <strong>sur votre téléphone</strong>. La liste de vos applications, vos photos, vos relevés de batterie et vos réglages restent sur l'appareil.</li>
     <li><strong>Rien n'est envoyé</strong> hors de votre téléphone sans votre accord explicite, demandé au premier lancement. Vous pouvez refuser, ou changer d'avis à tout moment dans les Paramètres d'Eddy.</li>
     <li><strong>Pas de publicité</strong>, pas de revente de données, pas d'identifiant publicitaire.</li>
     <li>Eddy ne supprime jamais une application ou une photo sans que vous ayez confirmé.</li>
@@ -47,21 +47,21 @@
 <p>Pour toute question ou demande concernant vos données : <a href="mailto:bridennedamien@gmail.com">bridennedamien@gmail.com</a>.</p>
 
 <h2>2. Ce qu'Eddy fait sur votre téléphone, sans rien envoyer</h2>
-<p>Ces traitements ont lieu uniquement sur l'appareil. Aucune de ces informations n'est transmise à l'éditeur ni à un tiers.</p>
+<p>Ces traitements ont lieu uniquement sur l'appareil. Les informations utilisées ci-dessous (liste de vos applications, photos, relevés de batterie…) ne sont transmises ni à l'éditeur ni à un tiers. Seuls les signaux d'usage décrits à la section 3 peuvent être envoyés, et uniquement avec votre accord.</p>
 <table>
   <thead><tr><th>Fonction</th><th>Information utilisée</th><th>Ce qui se passe</th></tr></thead>
   <tbody>
     <tr><td>Repérer les applications indésirables</td><td>Liste des applications installées</td><td>Comparée, sur l'appareil, à une liste d'applications connues pour poser problème (publicités intrusives, faux nettoyeurs…) incluse dans Eddy. Votre liste d'applications n'est jamais envoyée.</td></tr>
     <tr><td>Prévenir à l'installation, ou quand une application se réveille</td><td>Installation d'une application ; statistiques d'utilisation (accès « Statistiques d'utilisation » du téléphone)</td><td>Eddy remarque qu'une application vient d'être installée, ou qu'elle s'affiche sans que vous l'ayez ouverte, et vous demande si vous la gardez. Rien n'est supprimé sans votre confirmation.</td></tr>
     <tr><td>Photos en double</td><td>Photos de l'appareil : nom, taille, date et empreinte du contenu calculée sur le téléphone</td><td>Sert à repérer des doublons que vous pouvez choisir de supprimer. Vos photos ne quittent jamais l'appareil.</td></tr>
-    <tr><td>Suivi de la batterie</td><td>Niveau et état de charge</td><td>Affiche un graphique et des conseils dans l'application.</td></tr>
+    <tr><td>Suivi de la batterie</td><td>Niveau et état de charge</td><td>Affiche un graphique et des conseils dans l'application. Les relevés ne quittent jamais l'appareil ; seul le fait qu'un conseil batterie a été notifié peut être compté, avec votre accord (section 3).</td></tr>
     <tr><td>Détection d'un changement de code de verrouillage (facultatif)</td><td>Notification du système indiquant qu'un changement a eu lieu</td><td>Eddy n'a jamais accès au code lui-même, seulement à l'information qu'il a changé. Fonction activable et désactivable dans les Paramètres d'Android.</td></tr>
     <tr><td>Essai gratuit et abonnement</td><td>Date de début d'essai, code d'activation, nom saisi lors de l'activation (facultatif)</td><td>Conservés sur l'appareil pour calculer la durée restante.</td></tr>
   </tbody>
 </table>
 
 <h2>3. Ce qui peut être envoyé, uniquement avec votre accord</h2>
-<p>Au premier lancement, Eddy vous demande si vous acceptez d'envoyer des informations techniques pour aider à corriger les bugs et améliorer l'application. <strong>Si vous refusez, rien n'est envoyé.</strong> Vous pouvez modifier ce choix à tout moment dans les Paramètres d'Eddy (rubrique « Vie privée »).</p>
+<p>Au premier lancement, Eddy vous demande si vous voulez l'aider à progresser : signaler à l'équipe quand quelque chose plante, ce que vous répondez aux alertes et les écrans que vous ouvrez. <strong>Si vous refusez, rien n'est envoyé.</strong> Vous pouvez modifier ce choix à tout moment dans les Paramètres d'Eddy (rubrique « Vie privée »).</p>
 <p>Si vous acceptez, deux services de Google Firebase sont activés :</p>
 <ul>
   <li><strong>Firebase Crashlytics</strong> : en cas de plantage, des informations techniques (type d'erreur, version d'Eddy, modèle du téléphone, version d'Android).</li>
@@ -74,14 +74,16 @@
       <li>tableau de bord : carte ouverte (nom de la carte seulement) ;</li>
       <li>abonnement : activation par code ou achat via Google Play (formule choisie) ;</li>
       <li>vérification des applications : nombre d'applications trouvées, suppression depuis l'écran de vérification ou l'accueil ;</li>
-      <li>nettoyage initial : affichage (nombre d'applications trouvées), suppression d'une application.</li>
+      <li>nettoyage initial : affichage (nombre d'applications trouvées), suppression d'une application ;</li>
+      <li>suppression confirmée : une application retirée avec Eddy a bien été désinstallée (simple signal, sans le nom de l'application) ;</li>
+      <li>notifications : un signal chaque fois qu'Eddy envoie une notification d'alerte, avec son type seulement (installation, réveil d'une application, publicités, verrouillage, conseil batterie) — jamais son texte ni aucune donnée de votre batterie.</li>
     </ul>
   </li>
 </ul>
 <p><strong>Un seul événement contient le nom d'une application précise</strong> : lorsque vous répondez « oui, ça me dérange » à l'alerte sur une application que l'éditeur ne connaissait pas encore. Cela permet de repérer de nouvelles applications à surveiller. Aucune autre information sur vos applications n'est envoyée.</p>
 <p>Firebase Analytics enregistre aussi automatiquement quelques événements techniques (première ouverture, début de session, mise à jour de l'application) ainsi que des informations générales sur l'appareil (modèle, version d'Android, langue, pays approximatif).</p>
 <p>Ces informations sont rattachées à un <strong>identifiant d'installation aléatoire</strong> généré par Firebase : il ne contient ni votre nom, ni votre adresse e-mail, ni votre numéro de téléphone. Il s'agit de données pseudonymisées, et non anonymes. L'identifiant publicitaire de votre téléphone n'est jamais collecté.</p>
-<p><strong>Pourquoi :</strong> corriger les bugs plus vite, vérifier que les fonctions marchent sur de vrais téléphones, savoir quoi améliorer en priorité. <strong>Base légale :</strong> votre consentement (article 6.1.a du RGPD), que vous pouvez retirer à tout moment.</p>
+<p><strong>Pourquoi :</strong> corriger les bugs plus vite, vérifier que les fonctions marchent sur de vrais téléphones, savoir quoi améliorer en priorité, et mesurer à quoi Eddy sert réellement (applications retirées, alertes envoyées). <strong>Base légale :</strong> votre consentement (article 6.1.a du RGPD), que vous pouvez retirer à tout moment.</p>
 
 <h2>4. Paiement et abonnement</h2>
 <p>Les abonnements payants sont gérés par <strong>Google Play</strong>. Eddy ne voit et n'enregistre jamais vos moyens de paiement ; l'application reçoit seulement l'information « abonnement actif ou non » et la formule choisie. Vous résiliez à tout moment depuis le Google Play Store. L'essai gratuit de 14 jours ne demande aucune carte bancaire.</p>
