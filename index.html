@@ -30,7 +30,7 @@
 <main>
 
 <h1>Politique de confidentialité d'Eddy</h1>
-<p class="meta">Dernière mise à jour : 20 octobre 2026 · Application Android « Eddy »</p>
+<p class="meta">Dernière mise à jour : 25 octobre 2026 · Application Android « Eddy »</p>
 
 <div class="box">
   <strong>En bref</strong>
@@ -61,14 +61,15 @@
 </table>
 
 <h2>3. Ce qui peut être envoyé, uniquement avec votre accord</h2>
-<p>Au premier lancement, Eddy vous demande si vous voulez l'aider à progresser : signaler à l'équipe quand quelque chose plante, ce que vous répondez aux alertes et les écrans que vous ouvrez. <strong>Si vous refusez, rien n'est envoyé.</strong> Vous pouvez modifier ce choix à tout moment dans les Paramètres d'Eddy (rubrique « Vie privée »).</p>
-<p>Si vous acceptez, deux services de Google Firebase sont activés :</p>
+<p>Au premier lancement, Eddy vous demande si vous voulez l'aider à progresser. Dans les Paramètres d'Eddy (rubrique « Vie privée »), <strong>deux interrupteurs séparés</strong> : « Signaler les plantages » et « Compter ce qui marche ». Vous pouvez en activer un seul, les deux, ou aucun. <strong>Si vous refusez, rien n'est envoyé.</strong> Vous pouvez modifier ces choix à tout moment.</p>
+<p>Selon vos choix, un ou deux services de Google Firebase sont activés :</p>
 <ul>
-  <li><strong>Firebase Crashlytics</strong> : en cas de plantage, des informations techniques (type d'erreur, version d'Eddy, modèle du téléphone, version d'Android).</li>
-  <li><strong>Firebase Analytics</strong> : une liste fermée d'événements d'usage, sans contenu personnel :
+  <li><strong>Firebase Crashlytics</strong> (« Signaler les plantages ») : en cas de plantage, des informations techniques (type d'erreur, version d'Eddy, modèle du téléphone, version d'Android). Quatre situations où Eddy n'a pas pu faire ce qu'il devait sont signalées de la même façon : le panneau d'alerte n'a pas pu s'afficher, une alerte n'a pas pu être notifiée faute d'autorisation, Android a refusé de relancer la surveillance, la page d'autorisation d'affichage est introuvable. Jamais le nom d'une de vos applications.</li>
+  <li><strong>Firebase Analytics</strong> (« Compter ce qui marche ») : une liste fermée d'événements d'usage, sans contenu personnel et jamais le nom d'une application :
     <ul>
       <li>panneau d'installation : affichage, choix « Garder » ou « Supprimer » ;</li>
-      <li>alerte « application déjà installée qui se réveille » : affichage, « Garder », « Supprimer » ;</li>
+      <li>arrivée de l'alerte d'une nouvelle application : par le panneau, par une notification ou pas du tout, et en combien de temps (moins de 10 secondes, moins d'une minute, moins de 15 minutes, plus) ;</li>
+      <li>alerte « application déjà installée qui se réveille » : mêmes événements ;</li>
       <li>alerte « publicités inattendues répétées » : affichage, réponse « ça ne me dérange pas » ou « oui, ça me dérange » ;</li>
       <li>verrouillage : activation ou désactivation de la détection du code, redémarrage de la surveillance ;</li>
       <li>tableau de bord : carte ouverte (nom de la carte seulement) ;</li>
@@ -76,11 +77,12 @@
       <li>vérification des applications : nombre d'applications trouvées, suppression depuis l'écran de vérification ou l'accueil ;</li>
       <li>nettoyage initial : affichage (nombre d'applications trouvées), suppression d'une application ;</li>
       <li>suppression confirmée : une application retirée avec Eddy a bien été désinstallée (simple signal, sans le nom de l'application) ;</li>
-      <li>notifications : un signal chaque fois qu'Eddy envoie une notification d'alerte, avec son type seulement (installation, réveil d'une application, publicités, verrouillage, conseil batterie) — jamais son texte ni aucune donnée de votre batterie.</li>
+      <li>notifications : un signal chaque fois qu'Eddy envoie une notification d'alerte, avec son type seulement (installation, réveil d'une application, publicités, verrouillage, conseil batterie) — jamais son texte ni aucune donnée de votre batterie ;</li>
+      <li>état de santé, au plus une fois par jour : oui ou non pour l'affichage par-dessus les autres applications, les notifications, l'exclusion de l'économie de batterie et l'accès à l'usage, et le nombre de fois où la surveillance a dû redémarrer dans la journée (0, 1, 2 à 5, 6 ou plus).</li>
     </ul>
   </li>
 </ul>
-<p><strong>Un seul événement contient le nom d'une application précise</strong> : lorsque vous répondez « oui, ça me dérange » à l'alerte sur une application que l'éditeur ne connaissait pas encore. Cela permet de repérer de nouvelles applications à surveiller. Aucune autre information sur vos applications n'est envoyée.</p>
+<p><strong>Aucun événement ne contient le nom d'une application</strong> : ni la liste de vos applications, ni celle que vous gardez ou supprimez.</p>
 <p>Firebase Analytics enregistre aussi automatiquement quelques événements techniques (première ouverture, début de session, mise à jour de l'application) ainsi que des informations générales sur l'appareil (modèle, version d'Android, langue, pays approximatif).</p>
 <p>Ces informations sont rattachées à un <strong>identifiant d'installation aléatoire</strong> généré par Firebase : il ne contient ni votre nom, ni votre adresse e-mail, ni votre numéro de téléphone. Il s'agit de données pseudonymisées, et non anonymes. L'identifiant publicitaire de votre téléphone n'est jamais collecté.</p>
 <p><strong>Pourquoi :</strong> corriger les bugs plus vite, vérifier que les fonctions marchent sur de vrais téléphones, savoir quoi améliorer en priorité, et mesurer à quoi Eddy sert réellement (applications retirées, alertes envoyées). <strong>Base légale :</strong> votre consentement (article 6.1.a du RGPD), que vous pouvez retirer à tout moment.</p>
@@ -113,13 +115,13 @@
 
 <h2>8. Vos droits</h2>
 <p>Vous disposez des droits d'accès, de rectification, d'effacement, de limitation, d'opposition et de portabilité sur vos données, ainsi que du droit de retirer votre consentement à tout moment et de définir des directives sur le sort de vos données après votre décès. Pour les exercer, écrivez à <a href="mailto:bridennedamien@gmail.com">bridennedamien@gmail.com</a>.</p>
-<p>Les données envoyées avec votre accord ne contiennent pas d'information permettant de vous identifier directement : nous pourrons vous demander des éléments complémentaires pour les retrouver. Le moyen le plus simple d'arrêter tout envoi est de désactiver l'interrupteur dans les Paramètres d'Eddy.</p>
+<p>Les données envoyées avec votre accord ne contiennent pas d'information permettant de vous identifier directement : nous pourrons vous demander des éléments complémentaires pour les retrouver. Le moyen le plus simple d'arrêter tout envoi est de désactiver les interrupteurs dans les Paramètres d'Eddy ; couper « Compter ce qui marche » efface aussi les données d'usage conservées sur le téléphone.</p>
 <p>Si vous estimez que vos droits ne sont pas respectés, vous pouvez saisir la CNIL : <a href="https://www.cnil.fr/fr/plaintes">www.cnil.fr/fr/plaintes</a>.</p>
 
 <h2 id="suppression">9. Supprimer vos données (application Eddy)</h2>
 <p>Pour demander la suppression des données liées à votre utilisation d'<strong>Eddy</strong>, publiée par <strong>Damien Bridenne</strong> :</p>
 <ol>
-  <li>Dans Eddy, ouvrez <strong>Paramètres › Vie privée</strong> et désactivez l'envoi d'informations techniques : plus rien n'est envoyé à partir de ce moment.</li>
+  <li>Dans Eddy, ouvrez <strong>Paramètres › Vie privée</strong> et désactivez les deux interrupteurs : plus rien n'est envoyé à partir de ce moment.</li>
   <li>Désinstallez Eddy (ou effacez ses données dans les réglages d'Android) : l'identifiant d'installation aléatoire est supprimé de votre téléphone et les données déjà reçues ne peuvent plus être reliées à vous.</li>
   <li>Pour demander l'effacement explicite des données reçues, écrivez à <a href="mailto:bridennedamien@gmail.com">bridennedamien@gmail.com</a> avec l'objet « Eddy — suppression de mes données ».</li>
 </ol>
